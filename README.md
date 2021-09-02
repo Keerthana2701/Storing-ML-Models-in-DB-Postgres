@@ -9,6 +9,7 @@ DROP TABLE IF EXISTS modelstore.futurex_model_catalog;
 CREATE TABLE modelstore.futurex_model_catalog
 
 (
+
     model_id integer NOT NULL,
     
     
