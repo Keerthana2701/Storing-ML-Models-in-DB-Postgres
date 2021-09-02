@@ -15,4 +15,6 @@ CREATE TABLE modelstore.futurex_model_catalog
 -- pass the values as tuple with id, name nad file ==== (2, 'sc', pickle_sc_string)
 -- store pickle strings into postgres table here id,name, pickled binary string
 
--- 
+-- cursor is used to execute the query
+
+-- model is saved in DB. any application can access this model from this table and do prediciton
